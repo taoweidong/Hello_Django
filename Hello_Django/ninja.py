@@ -3,6 +3,7 @@ from ninja_extra import NinjaExtraAPI
 
 from blog.ninjia import router as blog_router
 from blog.views import App2Controller
+from users.department_views import api
 from users.ninjia import router as users_router
 from users.views import AppUserController
 
