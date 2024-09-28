@@ -17,7 +17,9 @@ Including another URLconf
 # from django.contrib import admin
 from django.urls import path, include
 
+from Hello_Django.ninja import ninja_api
+
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('api/', include('api.urls')),
+    path('ninja_api/', ninja_api.urls),
 ]

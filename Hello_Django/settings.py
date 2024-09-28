@@ -35,8 +35,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'api',
     'ninja_extra',
+    'blog.apps.BlogConfig',
+    'users.apps.UsersConfig'
+
 ]
 
 REST_FRAMEWORK = {
